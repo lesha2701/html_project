@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    min-width: 320px;
+    min-height: 100vh;
+    background: #fff;
+    color: #48555B;
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1440px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.main {
+    position: relative;
+}

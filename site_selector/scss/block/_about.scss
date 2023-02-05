@@ -1,0 +1,50 @@
+.about {
+    width: 941px;
+    height: 344px;
+    position: relative;
+    margin: 58px auto 116px;
+}
+
+.about .about-line {
+    position: absolute;
+    left: 447px;
+    top: 34px;
+}
+
+.about .about-img {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    right: 0;
+    bottom: 0;
+}
+
+.about h2 {
+    text-align: center;
+    letter-spacing: 2.30625px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.about .about-title {
+    position: absolute;
+    top: 100px;
+    width: 390px;
+    height: 80px;
+}
+
+.about .about-title b {
+    letter-spacing: 0.1875px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.about p {
+    position: absolute;
+    bottom: 0;
+    width: 390px;
+    height: 115px;
+    letter-spacing: 0.1875px;
+    font-size: 13px;
+    line-height: 23px;
+}

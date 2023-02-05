@@ -1,0 +1,56 @@
+.services {
+    width: 940px;
+    height: 446px;
+    position: relative;
+    margin: 0 auto 115px;
+}
+
+.services a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .serveces-text {
+    position: absolute;
+    top: 0;
+    left: 353px;
+    width: 370px;
+    height: 38px;
+    letter-spacing: 0.2px;
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.services .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+
+.services .card {
+    width: 295px;
+    height: 330px;
+    padding: 38px 23px;
+    border: 1px solid #E6E6E6;
+}
+
+.services .card h3 {
+    margin: 25px 0 13px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+}
+
+.services .card p {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+}
