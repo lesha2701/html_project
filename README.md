@@ -7,3 +7,5 @@ This repository contains projects where I work on different topics that relate t
 2) trening_html1 - in this project, I paid attention to architecture and learned how to connect cards on the page with radio buttons. In addition, I learned about sprites and what they are for.
 
 3) site_selector - for this project, I chose a simple layout, but I had a certain goal: semantics training
+
+4) site_deliver_x - in this project, I corrected the mistakes of past projects. I tried to make the first good landing page. But I still have something to work on.
