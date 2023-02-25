@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>GitPod</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="header__logo">
+                <img class="header__logo-png" src="./images/Frame.png" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">We're hiring</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="header__btn">Login</a>
+        </header>
+        <section class="main">
+            <div class="section__inner">
+                <div class="main__text">
+                    <h1 class="main__text-title">Always</h1>
+                    <h1 class="main__text-title">Ready to Code.</h1>
+                    <p class="main__text-p">Spin up fresh, automated dev environments</p>
+                    <p class="main__text-p">for each task, in the cloud, in seconds.</p>
+                    <div class="main__text-btn">
+                        <a href="#" class="text-btn--button">Try Now</a>
+                        <div class="text-btn--p">
+                            <p>Open a workspace.</p>
+                            <p>Start from any Git context.</p>
+                        </div>
+                    </div>
+                    <div class="main__text-links">
+                        <a href="#"><img src="./images/fox.svg" alt=""></a>
+                        <a href="#"><img src="./images/git.svg" alt=""></a>
+                        <a href="#"><img src="./images/blue.svg" alt=""></a>
+                    </div>
+                </div>
+                <img class="main__img" src="./images/Rectangle-main.png" alt="main">
+            </div>
+        </section>
+        <section class="select_pr">
+            <div class="section__inner">
+                <p class="select_pr-text">Select project,</p>
+                <p class="select_pr-text--line">check dependencies, checkout branch, view</p>
+                <p class="select_pr-text--line">readme.txt, install tools, run build, run test,</p>
+                <p class="select_pr-text">start coding.</p>
+            </div>
+        </section>
+        <section class="ci_cd">
+            <div class="section__inner">
+                <div class="ci_cd__inner">
+                    <div class="ci_cd__inner-text">
+                        <h2 class="ci_cd__text-title">Think CI/CD for dev environments</h2>
+                        <p class="ci_cd__text-p">We invented prebuilds so application code, configuration and infrastructure can all be stored as machine-executable code in your git repositories and applied to dev environments automatically and continuously.</p>
+                        <div class="ci_cd__inner-btn">
+                            <a href="#" class="ci_cd__inner-btn--orange">More on prebuilds</a>
+                            <a href="#" class="ci_cd__inner-btn--pink">Documentation</a>
+                        </div>
+                    </div>
+                    <img class="ci_cd-img" src="./images/code.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="remote">
+            <div class="section__inner">
+                <div class="remote__inner">
+                    <h2 class="remote__inner-title">Remote-first. Secure by design.</h2>
+                    <img class="remote__inner-img" src="./images/b_code.png" alt="">
+                    <p class="remote__inner-text">You no longer need an over-powered laptop to code, Gitpod works just as smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes all source code and never stores it on insecure machines and networks.</p>
+                    <div class="remote__inner-links">
+                        <div class="remote__inner-links--chrome">
+                            <a href="#" class="links-btn">
+                                <img src="./images/chrome.png" alt="">
+                                <p>Chrome Extension</p>
+                            </a>
+                            <div class="links-border links-border--chrome"></div>
+                        </div>
+                        <div class="remote__inner-links--firefox">
+                            <a href="#" class="links-btn">
+                                <img src="./images/firefox.png" alt="">
+                                <p>Firefox Extension</p>
+                            </a>
+                            <div class="links-border"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="used">  
+            <div class="section__inner">
+                <div class="used__inner">
+                    <h2 class="used__title">Used by 400,000+ developers.</h2>
+                    <div class="used__articles swiper slider slider_main">
+                        <div class="articles swiper-wrapper slider__wrapper">
+                            <article class="article swiper-slide slider__item">
+                                <div class="article-text">
+                                    <p class="article-text--one">GitPod is incredibly cool.</p>
+                                    <p class="article-text--two">In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.</p>
+                                </div>
+                                <div class="article-info">
+                                    <img src="./images/profile1.png" alt="" class="article-info--img"> 
+                                    <div class="article-info--name">
+                                        <p class="info--name">Ben Halpern</p>
+                                        <p class="info--role">Creator and Co-founder <span>@forem</span> and <span>@ThePracticalDev</span></p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="article swiper-slide slider__item">
+                                <div class="article-text">
+                                    <p class="article-text--one">Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked.</p>
+                                    <p class="article-text--two">Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)</p>
+                                </div>
+                                <div class="article-info">
+                                    <img src="./images/profile1.png" alt="" class="article-info--img"> 
+                                    <div class="article-info--name">
+                                        <p class="info--name">Michael Friedrich</p>
+                                        <p class="info--role">Developer Evangelist <span>@GitLab</span></p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="article swiper-slide slider__item">
+                                <div class="article-text">
+                                    <p class="article-text--two">Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+                                </div>
+                                <div class="article-info">
+                                    <img src="./images/profile1.png" alt="" class="article-info--img"> 
+                                    <div class="article-info--name">
+                                        <p class="info--name">Julius Volz</p>
+                                        <p class="info--role">Creator <span>@PrometheusIO</span></p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="article swiper-slide slider__item">
+                                <div class="article-text">
+                                    <p class="article-text--two">Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+                                </div>
+                                <div class="article-info">
+                                    <img src="./images/profile1.png" alt="" class="article-info--img"> 
+                                    <div class="article-info--name">
+                                        <p class="info--name">Julius Volz</p>
+                                        <p class="info--role">Creator <span>@PrometheusIO</span></p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="article swiper-slide slider__item">
+                                <div class="article-text">
+                                    <p class="article-text--two">Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+                                </div>
+                                <div class="article-info">
+                                    <img src="./images/profile1.png" alt="" class="article-info--img"> 
+                                    <div class="article-info--name">
+                                        <p class="info--name">Julius Volz</p>
+                                        <p class="info--role">Creator <span>@PrometheusIO</span></p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="article swiper-slide slider__item">
+                                <div class="article-text">
+                                    <p class="article-text--two">Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+                                </div>
+                                <div class="article-info">
+                                    <img src="./images/profile1.png" alt="" class="article-info--img"> 
+                                    <div class="article-info--name">
+                                        <p class="info--name">Julius Volz</p>
+                                        <p class="info--role">Creator <span>@PrometheusIO</span></p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="used__companies">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                        <img src="./images/img/gitLab.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="start">
+            <div class="section__inner">
+                <div class="start__inner">
+                    <h2 class="start__title">Get started now</h2>
+                    <div class="start__cards">
+                        <div class="card">
+                            <h3 class="card__title">Connect Git repository</h3>
+                            <p class="card__descr">Select a Git provider to start with an existing project from any Git context.</p>
+                            <div class="card__links">
+                                <a href="#" class="card__links-a card-gitLab">
+                                    <img src="./images/git.svg" alt="">
+                                    <p>Continue with GitLab</p>
+                                </a>
+                                <a href="#" class="card__links-a card-gitHub">
+                                    <img src="./images/git.svg" alt="">
+                                    <p>Continue with GitHub</p>
+                                </a>
+                                <a href="#" class="card__links-a card-bitBucket">
+                                    <img src="./images/git.svg" alt="">
+                                    <p>Continue with Bitbucket</p>
+                                </a>
+                            </div>
+                            <p class="card__descr">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
+                            <p class="card__connect">gitpod.io/#</p>
+                        </div>
+                        <div class="card">
+                            <h3 class="card__title">Launch an example workspace</h3>
+                            <p class="card__descr">Dive into one of our example workspaces</p>
+                            <div class="card__links card__links-pr">
+                                <div class="link">
+                                    <div class="link-name">
+                                        <img src="./images/lang/typeScript.png" alt="">
+                                        <p>Node or TypeScript</p>
+                                    </div>
+                                    <a href="#" class="link-btn">Launch workspace</a>
+                                </div>
+                                <div class="link">
+                                    <div class="link-name">
+                                        <img src="./images/lang/python.png" alt="">
+                                        <p>Python</p>
+                                    </div>
+                                    <a href="#" class="link-btn">Launch workspace</a>
+                                </div>
+                                <div class="link">
+                                    <div class="link-name">
+                                        <img src="./images/lang/go.png" alt="">
+                                        <p>Go</p>
+                                    </div>
+                                    <a href="#" class="link-btn">Launch workspace</a>
+                                </div>
+                                <div class="link">
+                                    <div class="link-name">
+                                        <img src="./images/lang/rust.png" alt="">
+                                        <p>Rust</p>
+                                    </div>
+                                    <a href="#" class="link-btn">Launch workspace</a>
+                                </div>
+                                <div class="link">
+                                    <div class="link-name">
+                                        <img src="./images/lang/java.png" alt="">
+                                        <p>Java</p>
+                                    </div>
+                                    <a href="#" class="link-btn">Launch workspace</a>
+                                </div>
+                                <div class="link">
+                                    <div class="link-name">
+                                        <img src="./images/lang/svetle.png" alt="">
+                                        <p>Swelte</p>
+                                    </div>
+                                    <a href="#" class="link-btn">Launch workspace</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <img src="./images/g.svg" alt="">
+                    <p>Copyright © 2021 Gitpod</p>
+                </div>
+                <div class="footer__links">
+                    <img src="./images/twitter.svg" alt="" class="footer__link">
+                    <img src="./images/twitter.svg" alt="" class="footer__link">
+                    <img src="./images/twitter.svg" alt="" class="footer__link">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./libs/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
